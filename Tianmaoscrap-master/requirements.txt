@@ -1,0 +1,12 @@
+beautifulsoup4==4.6.0
+certifi==2017.7.27.1
+chardet==3.0.4
+idna==2.6
+lxml==3.8.0
+pkg-resources==0.0.0
+ply==3.10
+requests==2.18.4
+selenium==3.5.0
+setupfiles==0.0.50
+slimit==0.8.1
+urllib3==1.22

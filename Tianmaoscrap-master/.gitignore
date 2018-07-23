@@ -1,0 +1,5 @@
+# Below files / directories are ignored.
+venv
+version*.py
+ghostdriver.log
+.idea

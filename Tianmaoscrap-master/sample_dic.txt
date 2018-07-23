@@ -1,0 +1,96 @@
+{
+  "product_name": "戴尔DELL成就3559R-2628B",  //
+  "seller_name": "Dell Shop",  //
+  "sku_id": "5217606", //
+  "item_url": "http://item.shop.com/55555", //
+  "comments_count": "15K",
+  "sales_count": "17025",
+  // Not just save the images' name, but also the whole file path
+  "img_pth":"/..."
+  "images": [
+    "/path/to/sdasdasdasdadas.ipg",
+    "/path/to/sdasdasdasdadas.ipg",
+    "/path/to/sdasdasdasdadas.ipg",
+    "/path/to/sdasdasdasdadas.ipg",
+    "/path/to/sdasdasdasdadas.ipg",
+    "/path/to/sdasdasdasdadas.ipg"
+  ],
+  "default_price": "6000.00",
+  // Optional, only when there are discount price
+  "final_price": "4200.00",
+  // If there is only 1 price, default price. else put discount price here
+  "current_stock": [
+    {
+      "location": "total",
+      // location "Total" will only available in T-Mall
+      "value": "432"
+    },
+    {
+      "location": "ShenZhen",
+      "value": "34"
+    },
+    {
+      "location": "GuangZhou",
+      "value": "24"
+    },
+    {
+      "location": "ShangHai",
+      "value": "15"
+    },
+    {
+      "location": "Beijing",
+      "value": "25"
+    }
+  ],
+  "tips": [
+    "破损包退",
+    "正品保证",
+    "极速退款",
+    "赠运费险"
+  ],
+  "coupons": [
+    // Optional
+    "aaaa",
+    "bbbb",
+    "ccccc"
+  ],
+  "advertisements": [
+    // Optional
+    "aaaaaaaaaa",
+    "bbbbbbbbbbbb",
+    "cccccccccc"
+  ],
+  "supports": [
+    // Optional
+    {
+      "support_name": "aaaa",
+      "support_price": "198"
+    },
+    {
+      "support_name": "bbbb",
+      "support_price": "298"
+    },
+    {
+      "support_name": "cccc",
+      "support_price": "398"
+    }
+  ],
+  "discount_package": [ // JD 的套餐; Optional, only available to JD
+    {
+      "suit_name": "Suit A",
+      "sku_id": "5217607",
+      "final_price": "4500.00",
+      "default_price": "1234.00" // Optional, lets assuome there is default price first
+    }
+  ],
+  "suit": [ // T-mall 的套餐; Optional, only available to T-Mall
+    {
+      "suit_name": "Suit A",
+      "sku_id": "5217607",
+      "current_stock": "52",
+      "final_price": "4500.00",
+      "default_price": "1234.00" // Optional, lets assuome there is default price first
+    }
+    //  more suit item ...
+  ]
+}
